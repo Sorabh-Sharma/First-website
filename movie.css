@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+
+}
+.header {
+    display: block;
+    height: 100vh;
+}
+
+.nav1 {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 14px 14px;
+    height: 40px;
+}
+.title h1{
+    align-items: center;
+    justify-content: center;
+    /*  animation:fadeIn 1s ease forwards; */
+}
+/* @keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: transslateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY0()
+    }
+} */
+
+.search input[type=text]{
+    float:right;
+    width: 400px;
+    margin: auto;
+    height: auto;
+  border: 3px solid grey;
+  padding: 10px;
+}
+
+
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img7.jpg);
+    background-position-y: 45px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin-bottom: 800px;
+    
+}
+.nav2 {
+    overflow: hidden;
+    background-color: #333;
+    height:40px;
+}
+.nav2 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav2 a.about{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.nav2 a#about{
+    float:right;
+}
+.nav2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.nav2 a#active {
+    background-color: #f07006;
+    color: white;
+} 
+.musicevents{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: x-large;
+
+}
+.event1 img{
+    height: 350px;
+    margin-left: 30px;
+    transition: 0.3s;
+    
+}
+.event1 img:hover{
+    transform: scale(1.08);
+}
+.comedyevents{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: x-large;
+}
+.event2 img{
+    height: 350px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.event2 img:hover{
+    transform: scale(1.08);
+}
+.exevents{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: x-large;
+}
+.event3 img{
+    height: 350px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.event3 img:hover{
+    transform: scale(1.08);
+}

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+
+}
+.header {
+    display: block;
+    height: 100vh;
+}
+
+.nav1 {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 14px 14px;
+    height: 40px;
+}
+.title h1{
+    align-items: center;
+    justify-content: center;
+    /*  animation:fadeIn 1s ease forwards; */
+}
+/* @keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: transslateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY0()
+    }
+} */
+
+.search input[type=text]{
+    float:right;
+    width: 400px;
+    margin: auto;
+    height: auto;
+  border: 3px solid grey;
+  padding: 10px;
+}
+
+
+
+
+.nav2 {
+    overflow: hidden;
+    background-color: #333;
+    height:40px;
+}
+.nav2 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav2 a.about{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.nav2 a#about{
+    float:right;
+}
+.nav2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.nav2 a#active {
+    background-color: #f07006;
+    color: white;
+} 
+body{
+  background-image: url(img7.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.tbook {
+    
+    
+
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+head, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: white;
+    border: 1px solid #0a0a23;
+    color: black;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #56cb69;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  } 

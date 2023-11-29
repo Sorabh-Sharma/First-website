@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+.header {
+    display: block;
+    height: 100vh;
+}
+
+.nav1 {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 14px 14px;
+    height: 40px;
+}
+.title {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search input[type=text]{
+    float:right;
+    width: 400px;
+    margin: auto;
+    height: auto;
+  border: 3px solid grey;
+  padding: 10px;
+}
+
+
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("theater.png");
+    background-position-y: 45px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.nav2 {
+    overflow: hidden;
+    background-color: #333;
+    height:40px;
+}
+.nav2 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav2 a.about{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.nav2 a#about{
+    float:right;
+}
+.nav2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.nav2 a#active {
+    background-color: #f07006;
+    color: white;
+} 
+.intro{
+    padding: 100px;
+    float: right;
+    color:white;
+    font-size:30px;
+    text-shadow: 3px 3px rgba(11, 9, 9, 0.925);
+}
+.copy{
+    
+    margin-top: 610px;
+    margin-left: 500px;
+    color:#ddd;
+    
+}
+
+
